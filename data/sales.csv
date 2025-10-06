@@ -1,3 +1,4 @@
-date,product,amount
-2025-01-01,Product A,100
-2025-01-02,Product B,200
+Order ID,Customer,Amount
+1,Ana,100
+2,Bruno,200
+3,,150
