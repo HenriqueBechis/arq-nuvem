@@ -1,0 +1,13 @@
+name: Data Pipeline
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  process-data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run transform
+        run: python scripts/transform.py
